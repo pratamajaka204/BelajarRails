@@ -32,6 +32,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+
+# JQuery UI
+gem 'jquery-ui-rails'
+# DataTables
+gem 'jquery-datatables-rails', github: 'rweng/jquery-datatables-rails'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
