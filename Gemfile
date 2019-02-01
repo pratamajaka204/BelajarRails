@@ -32,7 +32,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Boostrap 3 bisa dipake untuk rails 4 {belum support bootstrap 4}
+# bisa sih tapi harus manual
+gem 'bootstrap3-rails'
 
+# gem 'sass-rails', github: 'rails/sass-rails'
+	
 # JQuery UI
 gem 'jquery-ui-rails'
 # DataTables
